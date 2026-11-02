@@ -1,0 +1,85 @@
+html, body {
+    background-color: #151515;
+    height: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+h1, h3 {
+    color: white;
+    font-family: Roboto;
+    margin: 0;
+    text-align: left;
+}
+
+#polyline {
+    stroke: #FFFFFF55;
+    stroke-width: 1;
+    fill: none;
+    margin-right: 5;
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    vertical-align: bottom;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.aboutbox {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    inset: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+    background-color: #404040AA;
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+}
+
+.vertical {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 0;
+    list-style: none;
+    align-items: 1;
+    text-align: left;
+}
+
+.avatar {
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-height: 25vh;
+    border-radius: 10px;
+}
+
+.horizontal {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal img {
+    aspect-ratio: 1/1;
+    width: 2rem;
+    filter: invert(1);
+}
