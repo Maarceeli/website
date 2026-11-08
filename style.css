@@ -1,3 +1,20 @@
+/* raleway-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  src: url('static/fonts/raleway-v37-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* raleway-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 600;
+  src: url('static/fonts/raleway-v37-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 html, body {
     background-color: #151515;
     height: 100%;
@@ -6,16 +23,17 @@ html, body {
 
 h1 {
     font-size: 1.6rem;
+    font-weight: 600;
 }
 
 h3 {
     font-size: 1rem;
-    font-weight: normal;
+    font-weight: 500;
 }
 
 h1, h3 {
     color: white;
-    font-family: Roboto;
+    font-family: Raleway;
     margin: 0;
     text-align: left;
 }
